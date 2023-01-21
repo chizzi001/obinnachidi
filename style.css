@@ -21,14 +21,12 @@ body {
     position: relative;
     box-sizing: border-box;
     font-family: 'Chubbo', sans-serif;
-    /* max-width: 120rem; */
     margin: auto;
 }
 
 .container {
     max-width: 1200px;
     width: 98%;
-    /* margin: auto; */
 }
 
 .about-container,
@@ -63,7 +61,6 @@ section:nth-child(5) {
     font-weight: 400;
     text-align: center;
     box-sizing: border-box;
-    /* height: 60px; */
     border: 1px solid #16a083;
 }
 
@@ -79,15 +76,12 @@ section:nth-child(5) {
         border 0.2s,
         box-shadow 0.2s ease-out;
     box-shadow: 1px 1px 3px #444;
-    /* transition: box-shadow 0.02s; */
-
 }
 
 /* //////////////////navbar//////////////////////*/
 
 
 .nav {
-    /* height: 50px; */
     width: 100%;
     background-color: #4d4d4d;
     position: sticky;
@@ -154,8 +148,6 @@ section:nth-child(5) {
     left: 0;
     width: 100%;
     opacity: 0.6;
-    /* background-image: linear-gradient(0deg, #ffffff 0%, #000000 56%, #fcfcfc 100%); */
-
 }
 
 .bgi img {
@@ -170,12 +162,9 @@ section:nth-child(5) {
 }
 
 .homePage {
-    /* width: 100%; */
     max-width: 950px;
     position: relative;
-    /* line-height: 1; */
     margin: 7rem 2rem 13rem 2rem;
-    /* border: 2px solid grey; */
     text-align: center;
     z-index: 1;
     margin-left: auto;
@@ -205,17 +194,15 @@ section:nth-child(5) {
     padding: 2rem;
     text-align: center;
     line-height: 2;
-
-    /* text-align: left; */
 }
 
 
 /* Home Page Styling Ends!!! */
 
 
-/* Styling of The About Page and Skills Page
+/* Styling of The About Page and Skills Page */
 
-About Me */
+/* About Me */
 
 .about-container {
     padding: 4.6rem;
@@ -233,14 +220,12 @@ About Me */
     flex-basis: 100%;
     padding: 2rem 4rem;
     color: #000;
-    /* border: 5px solid #fff; */
     text-align: center;
     z-index: 1;
 }
 
 .me>h2,
 .work>h2 {
-    /* border: 2px solid grey; */
     text-transform: uppercase;
     font-size: 2.2rem;
 }
@@ -254,9 +239,7 @@ About Me */
 
 .about-Me {
     flex-basis: 42.38%;
-    /* flex-wrap: nowrap; */
     flex-grow: 1;
-    /* border: 5px solid #fff; */
     padding: 10px 15px;
     text-align: justify;
     box-sizing: border-box;
@@ -285,16 +268,6 @@ About Me */
     font-weight: 600;
 }
 
-/* .btn {
-    height: 50px;
-    background-color: #c6c6c6;
-    border: 1px solid #c6c6c6;
-    border-radius: 10px;
-    font-size: 18px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-} */
-
 .btn a {
     padding: 20px 30px;
     color: #e2e2e2;
@@ -303,27 +276,17 @@ About Me */
     font-weight: 400;
 }
 
-/* .btn:hover {
-    border: 1px solid #c6c6c6;
-    box-shadow: 0px 5px 7px 5px #222121d2;
-    margin: 18px 5px;
-    padding: 12px 7px;
-    transition: padding 0.1s;
-
-} */
 
 /* Skills */
 
 .skill {
     flex-basis: 44%;
     flex-grow: 1;
-    /* border: 5px solid #fff; */
     border-radius: 10px;
     margin: 20px 30px;
     padding: 10px 15px;
     box-sizing: border-box;
     z-index: 1;
-
 }
 
 .my-Skills h2 {
@@ -333,13 +296,10 @@ About Me */
     text-transform: uppercase;
 }
 
-
-
 .weapon {
     font-size: 1.6rem;
     padding: 1rem;
     cursor: none;
-
 }
 
 .items {
@@ -352,8 +312,6 @@ About Me */
     border-radius: 0.2rem;
     box-shadow: 0px 0px 14px #cccbcb;
     opacity: 0.7;
-
-
 }
 
 .items:hover {
@@ -370,45 +328,32 @@ About Me */
 
 /* Project Page Styling */
 
-
-
 .project {
-    /* margin: 10px; */
-    /* border: 2px solid #0000ff; */
     padding: 4.6rem;
     position: relative;
-    /* background-color: #0000ff; */
 }
 
 .work {
     flex-basis: 100%;
     padding: 2rem 4rem;
     color: #fff;
-    /* border: 5px solid #fff; */
     text-align: center;
     z-index: 1;
 }
 
-
 .proj {
-    /* border: 3px solid #ff0000; */
-    /* background-image: url(https://img.gs/nbrzpswnkk/full/https://i.ibb.co/g3NN7hT/proj-bgi.jpg); */
     color: #fff;
     box-sizing: border-box;
     display: grid;
-    /* grid-gap: 5rem; */
     column-gap: 4rem;
     grid-template-columns: 1.3fr 1.5fr;
     box-sizing: border-box;
     position: relative;
-    /* border-bottom: 5px solid #f5f2f2; */
     overflow: hidden;
     margin: 1rem 0.3rem 10rem 0.3rem;
     padding: 1rem;
     justify-items: center;
     align-items: center;
-    /* border-radius: 1rem; */
-    /* box-shadow: 0rem 0rem 1rem 0rem #918f8f; */
 }
 
 .img {
@@ -419,7 +364,6 @@ About Me */
     opacity: 0.7;
     border: 1px solid #353535;
     box-shadow: 0.2rem 0rem 1rem 0rem #353535;
-    /* width: 30px; */
 }
 
 
@@ -427,11 +371,9 @@ About Me */
     text-align: center;
     padding: 1rem;
     width: 100%;
-    /* margin: 20px 10px; */
 }
 
 .abt h2 {
-    /* border: 2px solid grey; */
     font-size: 3rem;
     text-transform: uppercase;
 }
@@ -451,7 +393,6 @@ About Me */
     border: 1px solid #0000ff;
     border-radius: 10px;
     font-size: 1rem;
-
 }
 
 .proj-button:hover {
@@ -477,9 +418,7 @@ About Me */
 /* ........ Contact Us........... */
 
 #contact {
-    /* margin: 5rem; */
     padding: 5rem;
-    /* background-color: #3130305b; */
 }
 
 .contact-container {
@@ -560,9 +499,6 @@ textarea:focus {
     font-size: 1.2rem;
 }
 
-
-
-
 .contact-me h2 {
     font-size: 2.5rem;
     width: 100%;
@@ -573,8 +509,6 @@ textarea:focus {
 }
 
 .contact-me p {
-
-    /* border: 5px solid #e4e675; */
     font-size: 1rem;
     padding: 0.1rem;
     padding-bottom: 2rem;
@@ -590,7 +524,6 @@ textarea:focus {
 }
 
 .contact-me>p>a {
-    /* text-decoration: none; */
     color: #afafaf;
     font-weight: 500;
     font-stretch: condensed;
@@ -610,12 +543,9 @@ textarea:focus {
 /* Contact Page Styling Ends!!! */
 
 
-
 /* Footer Styling */
 
 footer {
-    /* margin: 10px; */
-    /* border: 2px solid #0000ff; */
     z-index: 2;
     background-color: #000;
     color: #fff;
@@ -626,7 +556,6 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    /* border: 2px solid #0000ff; */
 }
 
 
@@ -641,14 +570,11 @@ footer {
 .main-footer-row1 h2 {
     font-size: 1.5rem;
     text-align: center;
-    /* border: 2px solid; */
 }
 
 .social-icon {
-    /* width: 10rem; */
     display: grid;
     grid-template-columns: 40px 40px 40px 40px 40px;
-    /* justify-content: space-evenly; */
 }
 
 ion-icon {
@@ -672,13 +598,10 @@ ion-icon {
 }
 
 .main-container {
-    /* box-sizing: border-box; */
     max-width: 1200px;
     margin: auto;
     width: 90%;
 }
-
-
 
 .social-icon a {
     text-decoration: none;
@@ -691,7 +614,6 @@ ion-icon {
 .main-footer-lower {
     background-color: #000;
     text-align: center;
-    /* width: 100%; */
     padding: 3rem;
     font-weight: 100;
     border-top: 0.1rem solid #eee;
@@ -703,7 +625,6 @@ ion-icon {
 }
 
 /* Footer Styling Ends!!! */
-
 
 
 /* desktop mode............/// */
@@ -724,7 +645,6 @@ ion-icon {
 }
 
 
-
 #footer h2 {
     text-align: center;
     font-size: 1.8rem;
@@ -733,10 +653,6 @@ ion-icon {
     color: #fff;
     background: rgb(65, 65, 65);
 }
-
-
-
-
 
 /* Ends Here For now!!! */
 
@@ -749,8 +665,6 @@ ion-icon {
 
     .logo {
         position: absolute;
-        /* top: -3.5rem;
-        right: -1rem; */
         font-size: 3rem;
         margin-bottom: 3rem;
     }
@@ -828,9 +742,7 @@ ion-icon {
         margin: 0;
     }
 
-
 }
-
 
 @media (max-width: 768px) {
 
@@ -1002,7 +914,6 @@ ion-icon {
         font-size: 1rem;
     }
 
-
     .abt {
         padding: 0.5rem;
         box-sizing: border-box;
@@ -1035,7 +946,6 @@ ion-icon {
         box-sizing: border-box;
         overflow: hidden;
     }
-
 
     .main-footer-upper {
         display: block;
@@ -1088,6 +998,3 @@ ion-icon {
     }
 
 }
-
-
-@media (max-width:600px) {}
